@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    
+</head>
+<body>
+    <form action="register" method="POST">
+        {% csrf_token %}
+        First Name:  <input type="text" name='first_name'><br>
+        Last Name:  <input type="text" name='last_name'><br>
+        E-mail:     <input type="email" name='mail'placeholder="example@mail.com"><br>
+        Username: <input type="text" name='username' placeholder="example"><br>
+        Password:   <input type="password" name='pwd' placeholder="At length of 8 values"><br>
+        Conffirm-password:  <input type="password" name='cpwd' placeholder="Same as above"><br>
+        <button type="submit" formaction='register' formmethod="POST">submit</button>
+    </form> 
+<div>
+    {% for m in messages%}
+    <h2>{{m}}</h2>
+    {%endfor%}
+</div>
+
+</body>
+</html>

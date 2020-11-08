@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    
+</head>
+<body>
+    <form action="login" method="POST">
+        {% csrf_token %}
+        Username: <input type="text" name='usname' placeholder="example"><br>
+        Password:   <input type="password" name='pwd' placeholder="At length of 8 values"><br>
+        <button type="submit" formaction='login' formmethod="POST">submit</button>
+    </form> 
+    <div>
+        {% for m in messages%}
+        <h2>{{m}}</h2>
+        {%endfor%}
+    </div>
+    <ul class="rd-navbar-nav">
+        <li class="rd-nav-item active"><a class="rd-nav-link" href="/">Home</a>
+        </li>
+        <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">About</a>
+        </li>
+        <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Typography</a>
+        </li>
+    </ul>
+</body>
+</html>

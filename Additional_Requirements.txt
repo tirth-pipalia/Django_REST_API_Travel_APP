@@ -1,0 +1,1 @@
+Please make sure in the root path you create folder whihc will contain all the images required to upload on the website.
