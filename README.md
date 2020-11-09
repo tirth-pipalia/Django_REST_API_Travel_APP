@@ -91,4 +91,5 @@ limitations under the License.
 
 ## Credits
 [Telusko](https://www.youtube.com/channel/UC59K-uG2A5ogwIrHw4bmlEg) <br>
-[Django Documentation](https://docs.djangoproject.com/en/3.1/)
+[Django Documentation](https://docs.djangoproject.com/en/3.1/)<br>
+[Rowhit Swami](https://gist.github.com/rowhitswami)
