@@ -38,21 +38,8 @@ pip install -r requirements.txt
 ```
 
 ## Directory Tree 
-```
-├── scr 
-│   └── projectTravel
-│   	├── accounts
-│   	├── assets
-│   	├── media
-│   	├── restapi
-│	    ├── projectTravel
-│   	├── static
-│	    ├── templates
-│   	├── travel
-│	    ├── Additional_Requirements.txt
-│	    ├── db.sqlite3
-│	    └── manage.py
-```
+
+![DT](https://user-images.githubusercontent.com/56732761/98570438-5a9e2e00-22ab-11eb-8a4c-307b433ff68c.PNG)
 
 ## Essential commands of Django
 
